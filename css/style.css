@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-color: whitesmoke;
 }
 header{
 	background-image: url('../assets/images/banner-bk.jpg');
@@ -56,9 +55,60 @@ h1{
 }
 
 /* Section 1 */
-
+.seccion1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 100px;
+}
+.icons-all_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#img-s2{
+	background-color: transparent;
+}
+#picon{
+	width: 400px;
+}
 
 /* Section 2 */
+.seccion2{
+	display: flex;
+	flex-direction: column;
+	background: url('../assets/images/fndo-s2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.all-2_1, .all-2_2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+#h1-s2{
+	font-size: 40px;
+}
+#p-s2{
+	width: 600px;
+	padding: 20px 0;
+	font-size: 15px;
+}
+#btn-s2{
+	border: none;
+	outline: none;
+	border-radius: 500px;
+	padding: 10px 30px;
+	background-color: rgb(25, 36, 64);
+	color: whitesmoke;
+	cursor: pointer;
+	transition: .7s;
+}
+#btn-s2:hover{
+	background-color:rgba(30, 46, 87, 0.719) ;
+}
 
 
 /* Section 3 */
