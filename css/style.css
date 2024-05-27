@@ -3,6 +3,10 @@
 	padding: 0;
 	font-family: sans-serif;
 }
+::selection{
+	background-color: rgb(44, 192, 143);
+	color: rgb(255, 208, 0);
+}
 header{
 	background-image: url('../assets/images/banner-bk.jpg');
 	width: 100%;
@@ -12,6 +16,10 @@ header{
 	display: flex;
 	flex-direction: column;
 	color: whitesmoke;
+}
+button{
+	cursor: pointer;
+	transition: .5s;
 }
 h1{
 	font-weight: bold;
@@ -52,6 +60,8 @@ h1{
 	width: 50px;
 	border: none;
 	border-radius: 100px;
+	display: flex;
+	justify-content: center;
 }
 
 /* Section 1 */
@@ -65,6 +75,9 @@ h1{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+#smrt{
+	font-size: 40px;
 }
 #img-s2{
 	background-color: transparent;
@@ -80,7 +93,7 @@ h1{
 	background: url('../assets/images/fndo-s2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+	padding-bottom: 100px ;
 }
 .all-2_1, .all-2_2{
 	display: flex;
@@ -110,7 +123,79 @@ h1{
 	background-color:rgba(30, 46, 87, 0.719) ;
 }
 
-
 /* Section 3 */
+.seccion3{
+	padding:100px 0 ;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#check{
+	font-size: 40px;
+}
+.paquete{
+	display: flex;
+	flex-direction: row;
+}
+#check{
+	padding-bottom: 70px;
+}
+#price, #price-two{
+	width: 350px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0;
+}
+#price-two{
+	background-color: rgb(25, 36, 64);
+	color: whitesmoke;
+}
+#varios{
+	display: flex;
+}
+#p-pack{
+	text-align: center;
+	width: 200px;
+	padding: 30px 0;
+}
+#btn-price, #btn-price_two{
+	border-radius: 500px;
+	padding: 10px 20px;
+} 
+#btn-price{
+	background-color: transparent;
+}
+#btn-price_two{
+	background-color: rgb(0, 255, 174);
+	border: none;
+	outline: none;
+}
 
+/* Seccion 4 */
+.seccion4{
+	background-color: rgb(236, 238, 239);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100px;
+}
 
+/* Seccion 5 */
+.seccion5{
+	background: url('../assets/images/contact-bk.jpg');
+	height: 400px;
+}
+.elmnts{
+	color: whitesmoke;
+	width: 350px;
+}
+#h1-s5{
+	padding-bottom: 15px;
+	font-size: 30px;
+}
+#p-s5{
+	padding-bottom: 15px;
+	font-size: 15px;
+}
