@@ -251,3 +251,31 @@ h1{
 	color: rgb(0, 255, 174);
 	margin: 10px 0;
 }
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 30px 20px;
+	background-color:rgb(25, 36, 64);
+	color: rgba(245, 245, 245, 0.829);
+}
+i{
+	padding: 0 5px;
+}
+
+/* -------------------------------------- MEDIA QUERY -------------------------------------- */
+
+@media screen and (max-width:992px) {
+	
+}
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
