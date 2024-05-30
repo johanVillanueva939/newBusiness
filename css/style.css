@@ -94,6 +94,7 @@ h1{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 100px ;
+	
 }
 .all-2_1, .all-2_2{
 	display: flex;
@@ -147,7 +148,9 @@ h1{
 	flex-direction: column;
 	align-items: center;
 	padding: 50px 0;
+	border-radius: 5px;
 }
+
 #price-two{
 	background-color: rgb(25, 36, 64);
 	color: whitesmoke;
@@ -155,10 +158,20 @@ h1{
 #varios{
 	display: flex;
 }
+.precio{
+	font-weight: bold;
+}
+.big{
+	font-size: 50px;
+}
+#caracteris{
+	padding: 20px 0;
+}
 #p-pack{
+	display: flex;
 	text-align: center;
-	width: 200px;
-	padding: 30px 0;
+	justify-content: center;
+	align-items: center;
 }
 #btn-price, #btn-price_two{
 	border-radius: 500px;
@@ -166,6 +179,7 @@ h1{
 } 
 #btn-price{
 	background-color: transparent;
+	
 }
 #btn-price_two{
 	background-color: rgb(0, 255, 174);
@@ -186,6 +200,10 @@ h1{
 .seccion5{
 	background: url('../assets/images/contact-bk.jpg');
 	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 .elmnts{
 	color: whitesmoke;
@@ -198,4 +216,38 @@ h1{
 #p-s5{
 	padding-bottom: 15px;
 	font-size: 15px;
+}
+.elmnts_2{
+	display: flex;
+	flex-direction: column;
+}
+#elmnts_2-1{
+	display: flex;
+	flex-direction: row;
+}
+#name, #email{
+	display: flex;
+	padding: 20px 0;
+	flex-direction: column;
+	color: rgb(0, 255, 174);
+}
+#email{
+	padding-left: 20px;
+}
+#txt-area{
+	color: rgb(0, 255, 174);
+}
+#your-name, #your-email{
+	height: 30px;
+	width: 250px;
+}
+#txt_area_1{
+	width: 520px;
+}
+#your-name, #your-email, #txt_area_1{
+	background-color: transparent;
+	border: solid 1px rgb(0, 255, 174);
+	border-radius: 5px;
+	color: rgb(0, 255, 174);
+	margin: 10px 0;
 }
