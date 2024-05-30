@@ -172,6 +172,7 @@ h1{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	padding: 5px 0;
 }
 #btn-price, #btn-price_two{
 	border-radius: 500px;
@@ -266,16 +267,70 @@ i{
 }
 
 /* -------------------------------------- MEDIA QUERY -------------------------------------- */
-
-@media screen and (max-width:992px) {
-	
+@media screen and (max-width:1279px){
+	#img-s2{
+		width: 65vh;
+	}
+}
+@media screen and (max-width:921px) {
+	#picon{
+		width: auto;
+	}
+	.all-2_1{
+		padding-bottom: 20px;
+	}
+	#p-s2{
+		width: 300px;
+	}
+	#img-s2{
+		width: 40vh;
+	}
+	#price, #price-two{
+		width: 300px;
+	}
 }
 
-@media screen and (max-width:768px){
-
+@media screen and (max-width:769px){
+	#price, #price-two{
+		width: 252px;
+	}
+	#your-name, #your-email{
+		width: 200px;
+	}
+	.elmnts, .elmnts_2{
+		padding: 0 5px;
+	}
+	#txt_area_1{
+		width: 420px;
+	}
+	#p-s5{
+		width: 300px;
+	}
+	#contact{
+		padding: 5px 0;
+		width: 250px;
+	}
 }
 
 @media screen and (max-width: 480px){
-
+	header{
+		height: 50vh;
+	}
+	#p-header{
+		width: auto;
+	}
+	#headerLogo, #div-h1, #p-header, #btn-header{
+		margin: 0 20px;
+	}
+	button{
+		font-size: 10px;
+	}
+	#div-h1{
+		font-size: 20px;
+	}
+	.icons-all_1{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
