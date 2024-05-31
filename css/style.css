@@ -300,6 +300,7 @@ i{
 	}
 	#price, #price-two{
 		width: 40vh;
+		margin: 0 10px;
 	}
 	footer{
 		height: 10px;
@@ -315,7 +316,8 @@ i{
 		font-size: 30px;
 	}
 	#price, #price-two{
-		width: 242px;
+		width: 238px;
+		margin: 0 8px;
 	}
 	#img-s2{
 		width: 50vh;
