@@ -302,7 +302,7 @@ i{
 
 @media screen and (max-width:770px){
 	header{
-		height: 100vh;
+		height: 70vh;
 	}
 	h1{
 		font-size: 30px;
@@ -345,7 +345,7 @@ i{
 }
 @media screen and (max-width: 481px){
 	header{
-		height: 60vh;
+		height: 100vh;
 	}
 	#p-header{
 		width: auto;
