@@ -258,6 +258,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	align-items: center;
 	padding: 30px 20px;
 	background-color:rgb(25, 36, 64);
 	color: rgba(245, 245, 245, 0.829);
@@ -272,7 +273,7 @@ i{
 		width: 65vh;
 	}
 }
-@media screen and (max-width:921px) {
+@media screen and (max-width:922px) {
 	#picon{
 		width: auto;
 	}
@@ -282,23 +283,41 @@ i{
 	#p-s2{
 		width: 300px;
 	}
+	#h1-s2{
+		font-size: 25px;
+	}
+	#btn-s2{
+		padding: 8px 15px;
+	}
 	#img-s2{
-		width: 40vh;
+		width: 48vh;
 	}
 	#price, #price-two{
-		width: 300px;
+		width: 34vh;
+	}
+	footer{
+		height: 10px;
 	}
 }
 
-@media screen and (max-width:769px){
+@media screen and (max-width:770px){
 	#price, #price-two{
 		width: 252px;
+	}
+	#img-s2{
+		width: 50vh;
 	}
 	#your-name, #your-email{
 		width: 200px;
 	}
 	.elmnts, .elmnts_2{
 		padding: 0 5px;
+	}
+	#p-pack{
+		font-size: 12px;
+	}
+	.big{
+		font-size: 25px;
 	}
 	#txt_area_1{
 		width: 420px;
@@ -310,11 +329,17 @@ i{
 		padding: 5px 0;
 		width: 250px;
 	}
+	.client{
+		width: 100px;
+	}
+	footer{
+		height: 10px;
+		font-size: 12px;
+	}
 }
-
 @media screen and (max-width: 480px){
 	header{
-		height: 50vh;
+		height: auto;
 	}
 	#p-header{
 		width: auto;
@@ -332,5 +357,7 @@ i{
 		display: flex;
 		flex-direction: column;
 	}
+	#smrt{
+		font-size: 15px;
+	}
 }
-
