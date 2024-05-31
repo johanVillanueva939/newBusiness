@@ -301,6 +301,7 @@ i{
 	#price, #price-two{
 		width: 40vh;
 		margin: 0 10px;
+		padding: 0 2px;
 	}
 	footer{
 		height: 10px;
@@ -318,6 +319,7 @@ i{
 	#price, #price-two{
 		width: 238px;
 		margin: 0 8px;
+		padding: 0 2px;
 	}
 	#img-s2{
 		width: 50vh;
