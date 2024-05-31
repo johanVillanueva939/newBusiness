@@ -28,6 +28,7 @@ h1{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	height: 75%;
 }
 #logo{
 	display: flex;
@@ -274,6 +275,10 @@ i{
 	}
 }
 @media screen and (max-width:922px) {
+	header{
+		height: auto;
+		padding-bottom: 50px;
+	}
 	#picon{
 		width: auto;
 	}
@@ -302,7 +307,8 @@ i{
 
 @media screen and (max-width:770px){
 	header{
-		height: 70vh;
+		height: auto;
+		padding-bottom: 50px;
 	}
 	h1{
 		font-size: 30px;
@@ -345,10 +351,29 @@ i{
 }
 @media screen and (max-width: 481px){
 	header{
-		height: 100vh;
+		height: auto;
+		padding-bottom: 50px;
+		display: flex;
+	}
+	h1{
+		font-size: 20px;
+	}
+	p{
+		font-size: 12px;
+	}
+	#logo{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 20px;
+	}
+	.p-head{
+		display: flex;
+		justify-content: center;
+		height: 75%;
 	}
 	#p-header{
 		width: auto;
+		
 	}
 	#headerLogo, #div-h1, #p-header, #btn-header{
 		margin: 0 20px;
@@ -363,7 +388,45 @@ i{
 		display: flex;
 		flex-direction: column;
 	}
-	#smrt{
-		font-size: 15px;
+	.paquete{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#price, #price-two{
+		height: auto;
+		width: 250px;
+		padding: 20px 0;
+	}
+	#p-pack{
+		padding: 2px;
+	}
+	#h1-s2, h2, .big, #h1-s5{
+		font-size: 20px;
+	}
+	#img-s2{
+		width: 25vh;
+	}
+	.seccion5{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	.client{
+		width: 70px;
+	}
+	#contact, #p-s5{
+		font-size: 12px;
+	}
+	#your-name, #your-email{
+		width: 150px;
+	}
+	#txt_area_1{
+		width: 320px;
+	}
+	#your-name, #your-email, #txt_area_1{
+		font-size: 10px;
+		margin: 5px;
 	}
 }
