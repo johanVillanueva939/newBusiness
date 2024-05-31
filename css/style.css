@@ -342,7 +342,7 @@ i{
 		width: 250px;
 	}
 	.client{
-		width: 100px;
+		width: 90px;
 	}
 	footer{
 		height: 10px;
@@ -425,7 +425,7 @@ i{
 		height: auto;
 	}
 	.client{
-		width: 70px;
+		width: 65px;
 	}
 	#contact, #p-s5{
 		font-size: 12px;
@@ -469,6 +469,6 @@ i{
 		font-size: 30px;
 	}
 	.client{
-		width: 50px;
+		width: 45px;
 	}
 }
