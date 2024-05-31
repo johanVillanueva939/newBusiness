@@ -287,6 +287,7 @@ i{
 	}
 	#p-s2{
 		width: auto;
+		margin: 0 5px;
 	}
 	#h1-s2{
 		font-size: 25px;
@@ -295,7 +296,7 @@ i{
 		padding: 8px 15px;
 	}
 	#img-s2{
-		width: auto;
+		width: 80vh;
 	}
 	#price, #price-two{
 		width: 40vh;
